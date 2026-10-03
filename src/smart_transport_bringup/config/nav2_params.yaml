@@ -1,0 +1,3 @@
+# Nav2 parameters are intentionally left as a hardware-calibration step.
+# Add the measured footprint, inflation, controller and costmap settings here
+# after the R1 radar and base dimensions are confirmed.

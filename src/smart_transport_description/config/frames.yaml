@@ -1,0 +1,9 @@
+frames:
+  ros__parameters:
+    map: map
+    odom: odom
+    base_link: base_link
+    lidar: lidar_link
+    qr_camera: qr_camera_link
+    grasp_camera: grasp_camera_link
+    ops9: ops9_link

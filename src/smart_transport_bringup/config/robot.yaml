@@ -1,0 +1,31 @@
+ops9_driver:
+  ros__parameters:
+    enabled: false
+    port: /dev/ttyUSB0
+    baudrate: 115200
+
+lower_driver:
+  ros__parameters:
+    enabled: false
+    port: /dev/ttyUSB1
+    baudrate: 115200
+    dry_run: true
+
+qr_detector:
+  ros__parameters:
+    camera_topic: /qr_camera/image_raw
+
+yolo_detector:
+  ros__parameters:
+    camera_topic: /grasp_camera/image_raw
+    model_path: ''
+
+radar_obstacle:
+  ros__parameters:
+    scan_topic: /scan
+
+mission_manager:
+  ros__parameters:
+    map_frame: map
+    odom_frame: odom
+    base_frame: base_link
